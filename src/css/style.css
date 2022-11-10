@@ -1,0 +1,126 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--White);
+    background-color: #000000;
+}
+.container{
+    background-color: var(--Very-Dark-neutral);
+    height:40rem;
+    width: 40rem;
+    border-radius: 2.5rem;
+}
+.container .page-1{
+    font-family: 'Overpass', sans-serif;
+    height: 100%;
+padding: 3.5rem;
+display: flex;
+flex-direction: column;
+gap:2rem;
+}
+.container .page-1 .star {
+background-color: var(--Dark-neutral);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 5rem;
+height: 5rem;
+border-radius: 50%;
+}
+.container .page-1 .star img{
+    width: 2rem;
+height: 2rem;
+}
+.container .page-1 .title{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.container .page-1 .text{
+    font-weight: 400;
+    color: var(--Light-neutral);
+    font-size: 1.5rem;
+}
+.container .page-1 .btn-box{
+    display: flex;
+    justify-content: space-between;
+}
+.selecionado{
+    background-color: var(--Light-neutral);
+    color: var(--White);
+}
+.container .page-1 .btn-box .buttom{
+    font-weight: 700;
+    font-size: 1.5rem;
+    width:5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .page-1 .btn-box .buttom:hover{
+    color: var(--White);
+    background-color: var(--Primary);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.container .page-1 .submit{
+    margin-top: 2rem;
+    letter-spacing: 0.3rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border-style: none;
+    font-weight: 400;
+    background-color: var(--Primary);
+    color: var(--White);
+}
+.container .page-1 .submit:hover{
+    color: var(--Primary);
+    background-color: var(--White);
+    transition: 0.3s;
+    cursor: pointer;
+}
+/* PÁGINA 2 */
+.container .page-2{
+    font-family: 'Overpass', sans-serif;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+margin: 3.5rem;
+}
+.container .page-2 img{
+    width: 15rem;
+}
+#javascript{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--Primary);
+    background-color: var(--Dark-neutral);
+    padding: 0.7rem 1.5rem;
+    border-radius: 2rem;
+}
+.container .page-2 .thank-you{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.container .page-2 .text{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--Light-neutral);
+}
+.n-selecionado{
+    color: var(--Light-neutral);
+    background-color: var(--Dark-neutral);   
+}
+.selecionado{
+        background-color: var(--Medium-neutral);
+        color: var(--White);
+}

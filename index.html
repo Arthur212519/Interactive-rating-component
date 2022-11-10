@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <title>Interactive rating componet</title>
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="page-1">
+            <div class="star" href="#">
+            <img src="./src/images/icon-star.svg" alt="estrela">
+        </div>
+            <h1 class="title">How did we do?</h1>
+            <p class="text">
+                Please let us know how we did with your support request.All feedback id appreciated to help us improve
+                our offering!
+            </p>
+            <ul class="btn-box">
+                <li class="buttom n-selecionado" value="1" id="1">1</li>
+                <li class="buttom n-selecionado" value="2" id="2">2</li>
+                <li class="buttom n-selecionado" value="3" id="3">3</li>
+                <li class="buttom n-selecionado" value="4" id="4">4</li>
+                <li class="buttom n-selecionado" value="5" id="5">5</li>
+            </ul>
+            <button type="submit" id="submit" class="submit">SUBMIT</button>
+        </section>
+        <section class="page-2">
+            <img src="./src/images/illustration-thank-you.svg" alt="thank you">
+            <p id="javascript">You selected <span id="escolha"></span> out of 5</p>
+            <h2 class="thank-you">Thank you!</h2>
+            <p class="text">We appreciate you taking the time to give a rating.if you ever need more support,don`t
+                hesitate to get in touch!</p>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
