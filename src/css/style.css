@@ -11,7 +11,7 @@ body{
 }
 .container{
     background-color: var(--Very-Dark-neutral);
-    height:40rem;
+    max-height:40rem;
     width: 40rem;
     border-radius: 2.5rem;
 }
